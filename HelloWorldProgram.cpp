@@ -8,8 +8,9 @@ int main() {
     cout << "Enter your message: " << endl;
     cin >> text;
 
-    HelloWorld hello(text);
+    HelloWorld message = HelloWorld(text);
 
+    message.display(text);
 
     return 0;
 }
